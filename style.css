@@ -1,0 +1,128 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.primary-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    padding: 1rem;
+    max-width: 100vw;
+    border-radius: 5px;
+    box-shadow: 10px 5px 5px #EEEEEE;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 .5rem;
+}
+
+.nav-links ul li a:hover {
+    color: grey;
+}
+
+.nav-links ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 0 .5rem;
+}
+
+.container {
+    background-color: #D6D3F0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    max-width: 30vw;
+    height: 90vh;
+    margin: 2rem auto;
+    padding: 1rem;
+    border: 2px solid black;
+    border-radius: 6px;
+}
+
+.heading {
+    margin: 1rem auto;
+    font-size: 2rem;
+}
+
+input {
+    padding: 1rem;
+    margin: 0.2rem 0.4rem;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+#output {
+    font-weight: 700;
+    padding: 0.5rem;
+}
+
+label {
+    margin: 1rem;
+    padding-top: 1rem;
+    text-align: left;
+    font-weight: 700;
+}
+
+#calculate {
+    margin: .5rem auto;
+    padding: .8rem;
+    background-color: white;
+    border-radius: 6px;
+    font-weight: 700;
+}
+
+#clear {
+    margin: .5rem auto;
+    padding: .8rem;
+    background-color: white;
+    border-radius: 6px;
+    font-weight: 700;
+}
+
+.primary-footer {
+    display: flex;
+    justify-content: center;
+    margin: 0rem auto;
+    align-items: center;
+    padding: 1rem;
+    max-width: 100vw;
+    height: 7vh;
+    border-radius: 6px;
+    box-shadow: 10px -5px 5px #EEEEEE;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.icon .fa {
+    padding: 0 1rem;
+    margin: 0 14px;
+    font-size: 20px;
+    color: black;
+}
+
+.icon .fa:hover {
+    color: grey;
+}
+
+@media (max-width:726px) {
+    .container {
+        max-width: 75vw;
+    }
+}
+
+@media (max-width:472px) {
+    .container {
+        max-width: 95vw;
+    }
+}
