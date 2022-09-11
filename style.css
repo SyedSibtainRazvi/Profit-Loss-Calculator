@@ -5,6 +5,7 @@
 }
 
 body {
+    text-align: center;
     font-family: 'Courier New', Courier, monospace;
 }
 
@@ -38,63 +39,55 @@ body {
     padding: 0 .5rem;
 }
 
-.container {
-    background-color: #D6D3F0;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    max-width: 30vw;
-    height: 90vh;
-    margin: 2rem auto;
-    padding: 1rem;
-    border: 2px solid black;
-    border-radius: 6px;
-}
 
-.heading {
-    margin: 1rem auto;
-    font-size: 2rem;
+
+header h1 {
+    text-align: center;
+    margin: 2rem;
 }
 
 input {
-    padding: 1rem;
-    margin: 0.2rem 0.4rem;
-    border: 1px solid black;
-    border-radius: 8px;
+    font-size: large;
+    display: block;
+    padding: 0.6rem 1rem;
+    margin: 0.8rem auto;
+    border: 3px solid #fc8181;
+    border-radius: 0.6rem;
+    width: 100%;
+    max-width: 325px;
 }
 
 #output {
     font-weight: 700;
     padding: 0.5rem;
+    margin: 2rem;
 }
 
 label {
-    margin: 1rem;
-    padding-top: 1rem;
-    text-align: left;
+    display: block;
+    font-size: larger;
+    margin: 2rem 0px;
     font-weight: 700;
 }
 
 #calculate {
-    margin: .5rem auto;
-    padding: .8rem;
-    background-color: white;
-    border-radius: 6px;
-    font-weight: 700;
+    background: #fc8181;
+    border: none;
+    color: #fff;
+    padding: 0.7rem 1rem;
+    border-radius: 0.5rem;
+    font-size: large;
+    cursor: pointer;
+    outline: #fff;
+    margin: auto;
+    display: block;
 }
 
-#clear {
-    margin: .5rem auto;
-    padding: .8rem;
-    background-color: white;
-    border-radius: 6px;
-    font-weight: 700;
-}
 
 .primary-footer {
     display: flex;
     justify-content: center;
-    margin: 0rem auto;
+    margin: 2rem auto;
     align-items: center;
     padding: 1rem;
     max-width: 100vw;
